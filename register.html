@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Register Here</title>
+</head>
+<body>
+    <header class="head" id="Home">
+        <nav >
+            <ul class="navbar">
+                <li>
+                    <a class="Home" href="index.html">Home</a>
+                    <a class="Locations" href="./index.html#Locations">Locations</a>
+                    <a class="Packages" href="./index.html#packages">Packages</a>
+                    <a class="About" href="aboutus.html">About Us</a>
+                    <a class="Contact" href="contactus.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="color">
+            <section class="registration">
+                <div class="register">
+                    <h1 class="heading1">Register <span style="color: red;">Here</span></h1>
+                </div>
+            </section>
+        <main>
+            <form action="#" class="input">
+                <input type="text" placeholder="Enter your Name" required class="info"><br>
+                <input type="email" placeholder="Enter your E-mail" required class="info"><br>
+                <input type="number" placeholder="Phone Number" minlength="10" required class="info"><br>
+                <input type="number" placeholder="Age" required class="info">
+                <h1 class="heading2">Gender</h1>
+                <div class="gender">
+                    <label for="Male"><input type="radio" name="Male" id="Male" class="male">Male</label>
+                    <label for="Female"><input type="radio" name="Male" id="Female" class="male">female</label>
+                    <label for="Others"><input type="radio" name="Male" id="Others" class="male">Others </label><br>
+                </div>
+                <h1 class="heading3">Departure</h1>
+                <input type="datetime-local" class="departure">
+                <h1 class="heading4">Return</h1>
+                <input type="datetime-local" class="departure">
+                <h1 class="heading5">Travel Destination</h1>
+                <div class="explore">
+                    <label for="Kashmir"><input type="checkbox" id="Kashmir" name="Kashmir" class="places">Kashmir</label>
+                    <label for="Istanbul"><input type="checkbox" id="Istanbul" name="Kashmir" class="places">Istanbul</label>
+                    <label for="Paris"><input type="checkbox" id="Paris" name="Kashmir"class="places">Paris</label>
+                    <label for="Bali"><input type="checkbox" id="Bali" name="Kashmir" class="places">Bali</label><br>
+                    <label for="Dubai"><input type="checkbox" id="Dubai"name="Kashmir" class="places">Dubai</label>
+                    <label for="Geneva"><input type="checkbox" id="Geneva"name="Kashmir" class="places">Geneva</label>
+                    <label for="Port Blair"><input type="checkbox" id="Port Blair"name="Kashmir" class="places">Port Blair</label>
+                    <label for="Rome"><input type="checkbox" id="Rome"name="Kashmir" class="places">Rome</label>
+                </div>
+                <h1 class="heading6">Package</h1>
+                <div class="package">
+                    <label for="Bronze"><input type="radio" id="Bronze" name="Bronze" class="p1">Bronze</label>
+                    <label for="Silver"><input type="radio" id="Silver" name="Bronze"class="p1">Silver</label>
+                    <label for="Gold"><input type="radio" id="Gold" name="Bronze" class="p1">Gold</label>
+                    <label for="Platinum"><input type="radio" id="Platinum" name="Bronze" class="p1">Platinum</label><br><br>
+                </div>
+                <div class="declaration">
+                    <input type="checkbox" class="checkbox">I accept the Terms & Condition
+                </div>
+            </form><br>
+        </main>
+        <a href="submit.html"><button onclick="submit" class="submit">Submit</button></a>
+        </div>
+        <div class="footer">
+            <footer class="f1">
+                <h3 class="heading7"><u>Quick Links</u></h3>
+                <a href="register.html"><li class="list2">Register</li></a>
+                <a href="aboutus.html"><li class="list2">About Us</li></a>
+                <a href="contactus.html"><li class="list2">Contact Us</li></a>
+            </footer>
+            <footer class="f2">
+                <h3 class="heading8"><u>Connect</u></h3>
+                <div class="fa" style="font-size: 20px;">
+                    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/" class="fa fa-twitter"></a>
+                    <a href="https://www.google.com/" class="fa fa-google"></a>
+                    <a href="https://www.linkedin.com/in/chirag-kumar-7704a3257" class="fa fa-linkedin"></a>
+                    <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+                    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                </div>
+            </footer>
+        </div>
+        <footer class="copyright">
+            <p class="class">Copyright2023 &copy;All Rights are Reserved</p>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,331 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins',sans-serif;  
+    scroll-behavior: smooth;
+}
+.head{
+    width: 100%;
+}
+nav{
+    width: 100%;
+    background-color: rgb(21, 74, 74);
+    display: flex;
+    justify-content:right ;
+    align-items: center;
+    height: 45px;
+    position:fixed;
+    z-index: 1;
+}
+.navbar{
+    display: flex;
+    margin-right: 4vh;
+    list-style: none;
+}
+.navbar a{
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    padding: 10px 22px;
+    border-radius: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.Home:hover{
+    background-color:white;
+    color: black;
+    border-radius: 5px;
+}
+.Locations:hover{
+    background-color:white;
+    color: black;
+    border-radius: 5px;
+}
+.Packages:hover{
+    background-color:white;
+    color: black;
+    border-radius: 5px;
+}
+.About:hover{
+    background-color:white;
+    color: black;
+    border-radius: 5px;
+}
+.Contact:hover{
+    background-color:white;
+    color: black;
+    border-radius: 5px;
+}
+.color{
+    background-color: black;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.head1{
+    padding: 50px;
+    width: 100%;
+    margin-top: 8%;
+    margin-right: 10%;
+}
+.image{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.heading1{
+    font-size: 80px;
+    color: white;
+    font-weight: 600;
+}
+.para{
+    margin-top: 20px;
+    font-size: 23px;
+    color: white;
+}
+.submit{
+    display: inline-block;
+    background-color: #fc0050;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    padding: 13px ;
+    border-radius: 30px;
+    transition: ease 0.4s;
+    border: 2px solid transparent;
+    letter-spacing: 1px;
+    margin-top: 10%;
+    list-style: none;
+    text-decoration: none;
+}
+.submit:hover{
+    border: 2px solid red;
+    background-color: black;
+    cursor: pointer;
+    transform: scale(1.1);
+} 
+.fa {
+    font-size: 20px;
+    padding: 15px;
+    margin: 5px 2px;
+    text-decoration: none;
+    border-radius: 100%;
+    text-align: center;
+}   
+.fa-facebook {
+    background:  black;
+    color: white;
+    font-size: 50px;
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}
+.fa-facebook:hover{
+    transform: scale(1.2);
+}
+.fa-twitter {
+    background:  black;
+    color: white;
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}
+.fa-twitter:hover{
+    transform: scale(1.2);
+}
+.fa-google {
+    background:  black;
+    color: white;
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}
+.fa-google:hover{
+    transform: scale(1.2);
+}
+.fa-linkedin {
+    background:  black;
+    color: white;
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}   
+.fa-linkedin:hover{
+    transform: scale(1.2);
+}
+.fa-youtube {
+    background:  black;
+    color: white;
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}   
+.fa-youtube:hover{
+    transform: scale(1.2);
+} 
+.fa-instagram {
+    background:  black;
+    color: white;
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}
+.fa-instagram:hover{
+    transform: scale(1.1);
+}
+.footer{
+    display: flex;
+    background-color: rgb(21, 74, 74);
+    justify-content: space-between;
+}
+.heading7{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.f1{
+    margin-left: 15%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.list2{
+    color: white;
+    margin-left: 8%;
+    margin-bottom: 20px ;
+    list-style: none;
+    font-size: 20px;
+    transition: ease 0.30s;
+}
+.list2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transform: translate(6px);
+}
+.heading8{
+    color: white;
+    font-size: 25px; 
+    margin-left: 25%;   
+}
+.f2{
+    margin-right: 20%;
+    margin-top: 40px;
+}
+.fa {
+    font-size: 20px;
+    padding: 15px;
+    margin: 5px 2px;
+    text-decoration: none;
+    border-radius: 100%;
+    text-align: center;
+}   
+.fa-facebook {
+    background: white;
+    color: black;
+    font-size: 50px;
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}
+.fa-facebook:hover{
+    transform: scale(1.2);
+}
+.fa-twitter {
+    background: white;
+    color: black;
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}
+.fa-twitter:hover{
+    transform: scale(1.2);
+}
+.fa-google {
+    background:  white;
+    color: black;
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}
+.fa-google:hover{
+    transform: scale(1.2);
+}
+.fa-linkedin {
+    background:  white;
+    color: black;
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}   
+.fa-linkedin:hover{
+    transform: scale(1.2);
+}
+.fa-youtube {
+    background:  white;
+    color: black;
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}   
+.fa-youtube:hover{
+    transform: scale(1.2);
+} 
+.fa-instagram {
+    background:  white;
+    color: black;
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}
+.fa-instagram:hover{
+    transform: scale(1.1);
+}
+.copyright{
+    background-color: black;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    height: 8vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}

@@ -1,0 +1,312 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    scroll-behavior: smooth;
+    text-decoration: none;  
+    font-family: 'Poppins',sans-serif;
+}
+.color{
+    background-color:black;
+}
+.registration{
+    padding: 80px;
+    height: 100%;
+}
+.register{
+    margin-left: 30%;
+}
+nav{
+    width: 100%;
+    background-color: rgb(21, 74, 74);
+    display: flex;
+    justify-content:right ;
+    align-items: center;
+    height: 45px;
+    position:fixed;
+    z-index: 1;
+}
+.navbar{
+    display: flex;
+    margin-right: 4vh;
+    list-style: none;
+}
+.navbar a{
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    padding: 10px 22px;
+    border-radius: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.Home:hover{
+    background-color:white;
+    color: black;
+    border-radius: 5px;
+}
+.Locations:hover{
+    background-color:white;
+    color: black;
+    border-radius: 5px;
+}
+.Packages:hover{
+    background-color:white;
+    color: black;
+    border-radius: 5px;
+}
+.About:hover{
+    background-color:white;
+    color: black;
+    border-radius: 5px;
+}
+.Contact:hover{
+    background-color:white;
+    color: black;
+    border-radius: 5px;
+}
+.heading1{
+    font-size: 80px;
+    color: white;
+    font-weight: 600;
+}
+.input{
+    margin-top: -3%;
+    margin-left: 32%;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.info{
+    margin-bottom: 20px;
+    padding: 19px;
+    width: 38%;
+    font-size: large;
+    border-radius: 10px;
+    background-color: #191919;
+    color:white;
+    border: none;
+    outline: none;
+}
+.heading2{
+    font-size: 30px;
+    margin-bottom:1%;
+    margin-right: 17%;
+    color: red;
+}
+.heading3{
+    font-size: 30px;
+    margin-bottom:1%;
+    margin-right: 15%;
+    color: red;
+}
+.heading4{
+    font-size: 30px;
+    margin-bottom:1%;
+    margin-right: 17.5%;
+    color: red;
+}
+.heading5{
+    font-size: 30px;
+    margin-bottom:1%;
+    margin-right: 8.5%;
+    color: red;
+}
+.heading6{
+    font-size: 30px;
+    margin-bottom:1%;
+    margin-right: 16.5%;
+    color: red;
+}
+.gender{
+    font-size: 22px;
+    margin-right: 9%;
+    margin-bottom: 2% ;
+    color: white;
+}
+.male{
+    margin-right: 4px;
+}
+.departure{
+    margin-right:6%;
+    padding: 1%;
+    font-size: large;
+    border-radius: 10px 12px;
+    margin-bottom: 2%;
+}
+.places{
+    margin-right: 8px;
+}
+.explore{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+.package{
+    font-size: 22px;
+    margin-top:2%;
+    color: whitesmoke;
+}
+.submit{
+    margin-left: 35%;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 50px;
+    border: none;   
+    width: 15%;
+    margin-bottom: 6%;
+}
+.declaration{
+    font-size: 24px;
+    color: whitesmoke;
+}
+.checkbox{
+    margin-right: 10px;
+}
+.p1{
+    margin-right:10px ;
+}
+.submit{
+    background-color: rgb(248, 48, 48);
+    color: white;
+    transition: ease 0.30s;
+}
+.submit:hover{
+    border: 2px solid red;
+    background-color: black;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.footer{
+    display: flex;
+    background-color: rgb(21, 74, 74);
+    justify-content: space-between;
+}
+.heading7{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.f1{
+    margin-left: 15%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.list2{
+    color: white;
+    margin-left: 8%;
+    margin-bottom: 20px ;
+    list-style: none;
+    font-size: 20px;
+    transition: ease 0.30s;
+}
+.list2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transform: translate(6px);
+}
+.heading8{
+    color: white;
+    font-size: 25px; 
+    margin-left: 25%;   
+}
+.f2{
+    margin-right: 20%;
+    margin-top: 40px;
+}
+.fa {
+    font-size: 20px;
+    padding: 15px;
+    margin: 5px 2px;
+    text-decoration: none;
+    border-radius: 100%;
+    text-align: center;
+}   
+.fa-facebook {
+    background: white;
+    color: rgb(21, 74, 74);
+    font-size: 50px;
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}
+.fa-facebook:hover{
+    transform: scale(1.2);
+}
+.fa-twitter {
+    background: white;
+    color:  rgb(21, 74, 74);
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}
+.fa-twitter:hover{
+    transform: scale(1.2);
+}
+.fa-google {
+    background:  white;
+    color:  black;
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}
+.fa-google:hover{
+    transform: scale(1.2);
+}
+.fa-linkedin {
+    background:  white;
+    color:  rgb(21, 74, 74);
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}   
+.fa-linkedin:hover{
+    transform: scale(1.2);
+}
+.fa-youtube {
+    background:  white;
+    color: rgb(21, 74, 74);
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}   
+.fa-youtube:hover{
+    transform: scale(1.2);
+} 
+.fa-instagram {
+    background:  white;
+    color:  rgb(21, 74, 74);
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}
+.fa-instagram:hover{
+    transform: scale(1.1);
+}
+.copyright{
+    background-color: black;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    height: 8vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
